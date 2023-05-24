@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find country</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/find-country.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <input
+        type="search"
+        class="search-input js-search-input"
+        name="search-input"
+        placeholder="Введіть країну для пошуку"
+      />
+      <p class="output-error js-output-error"></p>
+      <ul class="country-card js-country-card list"></ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script type="module" src="./js/find.country.js"></script>
+  </body>
+</html>
