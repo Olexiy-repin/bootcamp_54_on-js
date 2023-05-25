@@ -1,0 +1,17 @@
+{
+  "name": "bootcamp_54_on",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "autoprefixer": "npx postcss src/css/*.css --use autoprefixer -d build/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0"
+  }
+}
